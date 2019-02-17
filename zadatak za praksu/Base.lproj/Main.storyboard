@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qc8-BA-gWu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qc8-BA-gWu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="GurmukhiMN.ttc">
-            <string>GurmukhiMN</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="1Jv-JT-mjW">
@@ -40,17 +35,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-QE-vEx">
-                                <rect key="frame" x="120.5" y="325.5" width="134" height="36"/>
+                                <rect key="frame" x="121" y="349" width="133" height="33"/>
                                 <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
                                 <state key="normal" title="Go To Next View">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HPX-Ba-6p3" kind="showDetail" id="aUW-1P-VYW"/>
+                                    <segue destination="HPX-Ba-6p3" kind="show" id="Fnv-Gx-a9u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWr-st-U2J">
-                                <rect key="frame" x="120" y="454" width="134" height="36"/>
+                                <rect key="frame" x="121" y="474.5" width="133" height="33"/>
                                 <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
                                 <state key="normal" title="Change Color">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,19 +69,16 @@
                         <viewLayoutGuide key="safeArea" id="ebF-Nz-SaD"/>
                     </view>
                     <navigationItem key="navigationItem" id="VLf-Vc-HYY"/>
-                    <connections>
-                        <segue destination="HPX-Ba-6p3" kind="showDetail" id="kAa-hi-xdh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pdj-lR-Wjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ubW-i2-z4g" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="703" y="229"/>
+            <point key="canvasLocation" x="674" y="231"/>
         </scene>
         <!--Second-->
         <scene sceneID="rcy-DW-w7J">
             <objects>
-                <viewController title="Second" id="HPX-Ba-6p3" sceneMemberID="viewController">
+                <viewController title="Second" id="HPX-Ba-6p3" customClass="SecondViewController" customModule="zadatak_za_praksu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZhE-gt-bdb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,9 +90,6 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="UL8-0H-Nxn" kind="showDetail" id="4uT-6F-7DW"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -112,8 +101,4 @@
             <point key="canvasLocation" x="1868" y="229"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="kAa-hi-xdh"/>
-        <segue reference="4uT-6F-7DW"/>
-    </inferredMetricsTieBreakers>
 </document>
