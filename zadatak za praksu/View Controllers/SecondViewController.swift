@@ -8,6 +8,11 @@
 
 import UIKit
 
+/*
+ DUSAN: Napravio sam "SecondViewController" i dodelio ga View controller-u u Storyboard-u
+ Ovde ces sada moci da napises fuknciju za prezentovanje Treceg View controller-a
+ */
+
 class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
