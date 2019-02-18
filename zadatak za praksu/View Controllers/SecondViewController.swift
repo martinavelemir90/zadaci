@@ -2,16 +2,11 @@
 //  SecondViewController.swift
 //  zadatak za praksu
 //
-//  Created by Dusan Cucurevic on 2/17/19.
+//  Created by Tina Martina on 2/18/19.
 //  Copyright © 2019 Tina Martina. All rights reserved.
 //
 
 import UIKit
-
-/*
- DUSAN: Napravio sam "SecondViewController" i dodelio ga View controller-u u Storyboard-u
- Ovde ces sada moci da napises fuknciju za prezentovanje Treceg View controller-a
- */
 
 class SecondViewController: UIViewController {
 
@@ -20,4 +15,21 @@ class SecondViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
 }
