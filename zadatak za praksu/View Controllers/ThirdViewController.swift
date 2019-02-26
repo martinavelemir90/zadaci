@@ -18,27 +18,39 @@ class ThirdViewController: UIViewController {
     
     @IBAction func hide(_ sender: Any) {
         
-        /* DUSAN: Ne moze da se radi navigation pop i dismiss. To su dve razlicite stvari.
-         Navigation pop sluzi da se skloni view controller kada je pushovan i to poziva se funkcija navigationController.popViewController,
-         A dismiss se poziva kada je view controller prezentovan
-         */
+       //  DUSAN: Ne moze da se radi navigation pop i dismiss. To su dve razlicite stvari.
+       //  Navigation pop sluzi da se skloni view controller kada je pushovan i to poziva se funkcija  navigationController.popViewController,
+      //   A dismiss se poziva kada je view controller prezentovan
         
-       self.navigationController?.popViewController(animated: true)
+        //EVO URADILA SAM SVE 4 OPCIJE KOJE SI MI REKAO ZA SVE MI IZBACUJE REFRESH TOG VC ,JEL TO TREBALO ILI JE TREBALO PRITISKOM NA C=X DA ME VRATI NA PRETHODNI VC
+        
+      //1 i 2 opcija sa prezentovanim VC i dismiss i opcija prezentovanje i navigationController.pop
         
         
-        //zasto ova linija koda moze i ne mora da stoji, i ne mora da stoji self ispred dismiss ?
+       // let storyboard = UIStoryboard(name: "Main", bundle: nil)
+       // let controller = storyboard.instantiateViewController(withIdentifier: "ThirdViewController")
+       // self.present(controller, animated: true, completion: nil)
         
-        /*DUSAN: Isprobaj varijante
-         - prezentujes ovaj view kontroller pa koristis navigationController.pop
-         - prezentujes ovaj view controller pa koristis dismiss,
-         - pushujes ovaj view kontroller pa koristis navigationController.pop
-         - pushujes ovaj view kontroller pa koristis dismiss
-        */
+        //opcije 3 i 4 kada je pushovan VC i navigationController.pop i pushovan VC i dismiss
+        
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+         let vc = storyboard.instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
+        navigationController?.pushViewController(vc, animated: true)
+        
+        
+       // self.dismiss(animated: true, completion: nil)
+        
+        self.navigationController?.popViewController(animated: true)
+        
+        
+        
+        
+        //*DUSAN: Isprobaj varijante
+        // - prezentujes ovaj view kontroller pa koristis navigationController.pop
+        // - prezentujes ovaj view controller pa koristis dismiss,
+        // - pushujes ovaj view kontroller pa koristis navigationController.pop
+        // - pushujes ovaj view kontroller pa koristis dismiss
+        
     }
-    
-
-    
-
-    
-
-}
+    }

@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/ThirdViewController.swift"
-            timestampString = "572659990.042083"
+            timestampString = "572916930.164369"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/ThirdViewController.swift"
-            timestampString = "572659990.042183"
+            timestampString = "572916930.1647249"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/ThirdViewController.swift"
-            timestampString = "572659990.042236"
+            timestampString = "572916930.164924"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/ThirdViewController.swift"
-            timestampString = "572659990.042282"
+            timestampString = "572916930.1651241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -70,11 +70,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/ForthViewController.swift"
-            timestampString = "572659990.0423321"
+            timestampString = "572916930.165315"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -86,11 +86,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/SecondViewController.swift"
-            timestampString = "572659990.042383"
+            timestampString = "572916193.8967561"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "12"
@@ -102,17 +102,110 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "zadatak za praksu/View Controllers/SecondViewController.swift"
-            timestampString = "572659990.042738"
+            timestampString = "572916193.896805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "onGoButton(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "zadatak za praksu/View Controllers/SecondViewController.swift"
+            timestampString = "572916193.89685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zadatak_za_praksu.SecondViewController.__deallocating_deinit"
+                  moduleName = "zadatak za praksu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tinamartina/Desktop/zadatak%20za%20praksu/zadatak%20za%20praksu/View%20Controllers/SecondViewController.swift"
+                  timestampString = "572914431.973065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zadatak_za_praksu.SecondViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; zadatak_za_praksu.SecondViewController"
+                  moduleName = "zadatak za praksu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tinamartina/Desktop/zadatak%20za%20praksu/zadatak%20za%20praksu/View%20Controllers/SecondViewController.swift"
+                  timestampString = "572914431.97536"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zadatak_za_praksu.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; zadatak_za_praksu.SecondViewController"
+                  moduleName = "zadatak za praksu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tinamartina/Desktop/zadatak%20za%20praksu/zadatak%20za%20praksu/View%20Controllers/SecondViewController.swift"
+                  timestampString = "572914431.977404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zadatak_za_praksu.SecondViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;zadatak_za_praksu.SecondViewController&gt;"
+                  moduleName = "zadatak za praksu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tinamartina/Desktop/zadatak%20za%20praksu/zadatak%20za%20praksu/View%20Controllers/SecondViewController.swift"
+                  timestampString = "572914431.979261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zadatak_za_praksu.SecondViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;zadatak_za_praksu.SecondViewController&gt;"
+                  moduleName = "zadatak za praksu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tinamartina/Desktop/zadatak%20za%20praksu/zadatak%20za%20praksu/View%20Controllers/SecondViewController.swift"
+                  timestampString = "572914431.981071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
