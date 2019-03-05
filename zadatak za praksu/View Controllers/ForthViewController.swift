@@ -25,9 +25,10 @@ class ForthViewController: UIViewController {
       //  navigationController?.pushViewController(vc, animated: true)
         
         //2)
-       // let viewController = storyboard?.instantiateViewController(withIdentifier: "ForthViewConrtoller") as! UIViewController
+//        let viewController = storyboard?.instantiateViewController(withIdentifier: "ForthViewConrtoller") as! UIViewController
        // navigationController?.pushViewController(viewController, animated: true)
         
+        //DUSAN: Ovo je isto , zato sto storyboard je isti. Trenutno FourthViewController ima svoj storyboard - "Main", zbog toga su ove dve stvari iste.
     }
 
     override func didReceiveMemoryWarning() {
