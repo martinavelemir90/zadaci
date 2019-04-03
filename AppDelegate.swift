@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  tableView zadatak
+//  tableView test
 //
-//  Created by Tina Martina on 3/6/19.
+//  Created by Tina Martina on 3/18/19.
 //  Copyright © 2019 Tina Martina. All rights reserved.
 //
 
